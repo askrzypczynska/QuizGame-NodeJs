@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .addQuestion {
+    align-self: flex-end;
+    margin-top: 20px; 
+    margin-right: 20px;
+  }
+
+  .addQuestionBtn {
+    padding: 20px;
+    border: 0px solid white;
+    border-radius: 20px;  
+    background-color: #05e1e0;
+    color: white;
+    cursor: pointer;
+  }
+
+  .addQuestionBtn:hover {
+    background-color: #067f8e;
+  }
+  
+  .categories {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  .categories h1 {
+    font-size: 24px;
+  }
+  
+  .categories p {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .categoriesBtns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .categoriesBtns button {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .categoriesBtns button:nth-child(1),   .categoriesBtns button:nth-child(7)  {
+    background-color: #0cebea;
+  }
+  
+  .categoriesBtns button:nth-child(2),   .categoriesBtns button:nth-child(6)  {
+    background-color: #80f1ed;
+  }
+  
+  .categoriesBtns button:nth-child(3),   .categoriesBtns button:nth-child(8) {
+    background-color: #34e2d4;
+  }
+  
+  .categoriesBtns button:nth-child(4),   .categoriesBtns button:nth-child(5)  {
+    background-color: #067f8e;
+  }
+
+  .categoriesBtns button:hover{
+    opacity: 0.4;
+    color: #000000;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .categoriesBtns button {
+      width: calc(33.33% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .categoriesBtns button {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .categoriesBtns button {
+      width: calc(100% - 20px);
+    }
+  }
+  
+  .categoriesBtns button icon {
+    margin-right: 5px;
+  }
