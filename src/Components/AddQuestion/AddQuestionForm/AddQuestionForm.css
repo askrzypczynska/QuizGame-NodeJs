@@ -1,0 +1,29 @@
+.AddQuestionForm {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 0px;
+    font-size: 18px;
+    color: #888;
+}
+  
+.AddQuestionForm h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,204,204,1) 0%, rgba(128,241,237,1) 100%);
+    padding: 40px;
+}
+  
+.AddQuestionForm p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+.AddQuestionForm label{
+    margin-right: 10px;
+
+}

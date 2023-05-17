@@ -1,0 +1,85 @@
+.CategoriesText {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 0px;
+  }
+  
+  .CategoriesText h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,204,204,1) 0%, rgba(128,241,237,1) 100%);
+    padding: 40px;
+  }
+  
+  .CategoriesText p {
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  
+  .CategoriesBtns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .CategoriesBtns button {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .CategoriesBtns button:nth-child(1),   .CategoriesBtns button:nth-child(7)  {
+    background-color: #0cebea;
+  }
+  
+  .CategoriesBtns button:nth-child(2),   .CategoriesBtns button:nth-child(6)  {
+    background-color: #80f1ed;
+  }
+  
+  .CategoriesBtns button:nth-child(3),   .CategoriesBtns button:nth-child(8) {
+    background-color: #34e2d4;
+  }
+  
+  .CategoriesBtns button:nth-child(4),   .CategoriesBtns button:nth-child(5)  {
+    background-color: #067f8e;
+  }
+
+  .CategoriesBtns button:hover{
+    opacity: 0.4;
+    color: #000000;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .CategoriesBtns button {
+      width: calc(33.33% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .CategoriesBtns button {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .CategoriesBtns button {
+      width: calc(100% - 20px);
+    }
+  }
+  
+  .CategoriesBtns .icon {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
