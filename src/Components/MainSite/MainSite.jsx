@@ -13,7 +13,7 @@ function MainSite() {
             <LogoQuiz />
             <AddQuestionBtn />
             <CategoriesText />
-            <CategoriesBtns />
+            <CategoriesBtns render={(props) => <CategoriesBtns {...props} />}/>
             
             <Footer />
         </div>  

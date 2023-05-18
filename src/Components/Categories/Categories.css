@@ -39,19 +39,20 @@
     cursor: pointer;
   }
 
-  .CategoriesBtns button:nth-child(1),   .CategoriesBtns button:nth-child(7)  {
+
+  .btn1{
     background-color: #0cebea;
   }
   
-  .CategoriesBtns button:nth-child(2),   .CategoriesBtns button:nth-child(6)  {
+  .btn2{
     background-color: #80f1ed;
   }
   
-  .CategoriesBtns button:nth-child(3),   .CategoriesBtns button:nth-child(8) {
+  .btn3 {
     background-color: #34e2d4;
   }
   
-  .CategoriesBtns button:nth-child(4),   .CategoriesBtns button:nth-child(5)  {
+  .btn4  {
     background-color: #067f8e;
   }
 
@@ -62,19 +63,19 @@
 
 
   @media screen and (max-width: 1200px) {
-    .CategoriesBtns button {
+    .CategoriesBtns Link {
       width: calc(33.33% - 20px);
     }
   }
   
   @media screen and (max-width: 768px) {
-    .CategoriesBtns button {
+    .CategoriesBtns Link {
       width: calc(50% - 20px);
     }
   }
   
   @media screen and (max-width: 480px) {
-    .CategoriesBtns button {
+    .CategoriesBtns Link {
       width: calc(100% - 20px);
     }
   }
