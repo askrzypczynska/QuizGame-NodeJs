@@ -1,19 +1,19 @@
 import './MainSite.css';
 import React from 'react';
-import AddQuestionBtn from '../AddQuestionBtn/AddQuestionBtn'
+import AddQuestionBtn from '../AddQuestion/AddQuestionBtn/AddQuestionBtn'
 import CategoriesText from '../Categories/CategoriesText';
 import CategoriesBtns from '../Categories/CategoriesBtns';
 import LogoQuiz from '../LogoQuiz/LogoQuiz';
 import Footer from '../Footer/Footer';
 
-function MainSite() {
+function MainSite(props) {
 
     return(
         <div className='MainSite'>
             <LogoQuiz />
             <AddQuestionBtn />
             <CategoriesText />
-            <CategoriesBtns render={(props) => <CategoriesBtns {...props} />}/>
+            <CategoriesBtns setCategoryName={props.setCategoryName}/>
             
             <Footer />
         </div>  

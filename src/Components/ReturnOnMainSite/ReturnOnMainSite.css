@@ -1,0 +1,19 @@
+.ReturnOnMainSite {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .ReturnOnMainSiteBtn {
+    padding: 20px;
+    border: 0px solid white;
+    border-radius: 20px;  
+    background-color: #05e1e0;
+    color: white;
+    cursor: pointer;
+  }
+
+  .ReturnOnMainSiteBtn:hover {
+    background-color: #067f8e;
+  }
+  

@@ -41,6 +41,14 @@
     color: white;
     cursor: pointer;
   }
+
+.correctAnswer{
+    background-color: #00ff2a !important;
+  }
+
+.badAnswer{
+    background-color: #ff0000 !important;
+  }
   
   .answers button:hover{
     opacity: 0.4;

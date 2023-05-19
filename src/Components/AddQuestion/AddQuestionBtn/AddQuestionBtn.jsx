@@ -6,7 +6,7 @@ function AddQuestionBtn() {
 
     return(
         <div className='AddQuestionBtn'>
-            <Link to="/add-own-question"><button className="AddQuestion">Add your own question!</button></Link>
+            <Link to="/add-own-question"><button className="AddQuestion">Dodaj swoje własne pytanie!</button></Link>
         </div>  
     )
 

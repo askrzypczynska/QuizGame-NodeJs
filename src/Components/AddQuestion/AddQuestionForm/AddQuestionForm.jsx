@@ -31,15 +31,15 @@ function AddQuestionForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formValues);
         setFormErrors(validate(formValues));
         setIsSubmit(true);
+
     }
 
     useEffect(() => {
         console.log(formErrors);
         if(Object.keys(formErrors).length === 0 & isSubmit){
-            console.log(formValues);
+            setFormValues(initialValues)
         }
     }, [formErrors])
 
